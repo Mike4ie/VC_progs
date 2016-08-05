@@ -1,0 +1,9 @@
+Z:\Prog6211\Prog Sem 2\prjMicaDIY\prjMicaDIY\prjMicaDIY\bin\Debug\prjMicaDIY.exe.config
+Z:\Prog6211\Prog Sem 2\prjMicaDIY\prjMicaDIY\prjMicaDIY\bin\Debug\prjMicaDIY.exe
+Z:\Prog6211\Prog Sem 2\prjMicaDIY\prjMicaDIY\prjMicaDIY\bin\Debug\prjMicaDIY.pdb
+Z:\Prog6211\Prog Sem 2\prjMicaDIY\prjMicaDIY\prjMicaDIY\obj\Debug\prjMicaDIY.csprojResolveAssemblyReference.cache
+Z:\Prog6211\Prog Sem 2\prjMicaDIY\prjMicaDIY\prjMicaDIY\obj\Debug\prjMicaDIY.frmProduct.resources
+Z:\Prog6211\Prog Sem 2\prjMicaDIY\prjMicaDIY\prjMicaDIY\obj\Debug\prjMicaDIY.Properties.Resources.resources
+Z:\Prog6211\Prog Sem 2\prjMicaDIY\prjMicaDIY\prjMicaDIY\obj\Debug\prjMicaDIY.csproj.GenerateResource.Cache
+Z:\Prog6211\Prog Sem 2\prjMicaDIY\prjMicaDIY\prjMicaDIY\obj\Debug\prjMicaDIY.exe
+Z:\Prog6211\Prog Sem 2\prjMicaDIY\prjMicaDIY\prjMicaDIY\obj\Debug\prjMicaDIY.pdb
