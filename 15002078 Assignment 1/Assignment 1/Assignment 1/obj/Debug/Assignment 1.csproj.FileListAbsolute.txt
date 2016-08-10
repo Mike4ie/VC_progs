@@ -1,0 +1,10 @@
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\Sem 2 Assign 1\Assignment 1\Assignment 1\bin\Debug\Assignment 1.exe.config
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\Sem 2 Assign 1\Assignment 1\Assignment 1\bin\Debug\Assignment 1.exe
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\Sem 2 Assign 1\Assignment 1\Assignment 1\bin\Debug\Assignment 1.pdb
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\Sem 2 Assign 1\Assignment 1\Assignment 1\obj\Debug\Assignment 1.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\Sem 2 Assign 1\Assignment 1\Assignment 1\obj\Debug\Assignment_1.frmLogin.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\Sem 2 Assign 1\Assignment 1\Assignment 1\obj\Debug\Assignment_1.Properties.Resources.resources
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\Sem 2 Assign 1\Assignment 1\Assignment 1\obj\Debug\Assignment 1.csproj.GenerateResource.Cache
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\Sem 2 Assign 1\Assignment 1\Assignment 1\obj\Debug\Assignment 1.exe
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\Sem 2 Assign 1\Assignment 1\Assignment 1\obj\Debug\Assignment 1.pdb
+C:\Users\Michael\Documents\Visual Studio 2013\Projects\Sem 2 Assign 1\Assignment 1\Assignment 1\obj\Debug\Assignment_1.frmSchedule.resources
