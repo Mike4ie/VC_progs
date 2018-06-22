@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm10="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="6293a337-0a88-48f4-a248-e5c7ad2dfcb9" name="UML Use Case Diagram" linkedPackageId="f31a7b50-4ca5-4ff5-9f9f-b528b654cb91" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="a8a1fc00-c4c0-48d1-aff5-0fca9dd6a484">
+      <profileInstance Id="e37fe584-4901-4111-8dfe-c8f11033eb79" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="cd451e81-cd1e-41ce-b629-08265fb8b26f">
+      <profileInstance Id="244120d8-929b-4bf2-bcd0-202f224be04c" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="264052d7-7df8-4291-b762-afb256728fdc" name="Receptionist" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="45134d37-84ad-44ed-8454-b52fbfd57d70" />
+        <targetEnds>
+          <association Id="a31a9d8e-0655-4906-a7c9-c5e9efd624ac" isDerived="false" sourceEndRoleName="Receptionist" targetEndRoleName="Login" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9af160e6-30aa-494d-8b02-2216c3a7083b" LastKnownName="Login" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="acb68264-cc65-4bbe-bf65-df8d0147295d" name="Receptionist" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ad3aa687-4539-4542-a67d-4ec12dd5af0e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e88ea7e0-fc88-4aa6-90f1-8a649f29da67" name="Login" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3f8e3508-bea5-49ca-a30e-b67861d422e0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5024174b-a555-4085-b809-db655538a48c" />
+          </association>
+          <association Id="c6539c98-bb2d-4625-a3da-38056a22d024" isDerived="false" sourceEndRoleName="Receptionist" targetEndRoleName="Add Patient Details" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="2dc0f680-2849-4958-8b11-bf27e4902f1e" LastKnownName="Add Patient Details" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="99ff3d3a-38ee-4bab-be5d-4f727ba70eef" name="Receptionist" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="bf707811-de8b-470b-90d0-1388ccc905dc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7de54e16-4270-49f2-9ec6-e0c7f9a2aaa7" name="Add Patient Details" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f6347b0b-0322-448c-b113-8bc82b5e7e73" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3170c4b7-fec0-43d3-846d-9d3aa7f10435" />
+          </association>
+          <association Id="9db46a81-eb11-49d7-9f60-49f0a96829d7" isDerived="false" sourceEndRoleName="Receptionist" targetEndRoleName="Search for Patient Details" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4034e2e8-df4a-4cec-b700-3d6e9e08dd54" LastKnownName="Search for Patient Details" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="22f7d8ba-93d4-437e-9ad4-a9b5862d982c" name="Receptionist" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ef4f3646-9063-4687-9569-6dff351e646d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="be2b69a7-6b8a-4bbe-9133-b55ab62a9bb7" name="Search for Patient Details" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f5086b5a-d7f5-42ae-a160-6fe9aac4f591" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="77593874-7952-4ab9-a96c-64f024ad70b7" />
+          </association>
+          <association Id="2fed999c-9006-46f6-b52b-d6886a310302" isDerived="false" sourceEndRoleName="Receptionist" targetEndRoleName="Generate Report" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="4ca17941-997f-44fd-9148-b9b60519aca8" LastKnownName="Generate Report" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3ed5f9f2-f948-46a9-bc32-12fbd8953a13" name="Receptionist" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="00fe235b-aa5d-41e2-9e3e-ebbfa2c66743" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="44adaad6-1356-416c-9db2-89f8b5081f28" name="Generate Report" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4a7b2fdc-8126-4595-9e18-e0f6ab5e6df7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="07aa63e4-256b-4245-98a0-3c182904adaa" />
+          </association>
+          <association Id="718d46a9-6b3d-4d57-ac3c-581da1804d4b" isDerived="false" sourceEndRoleName="Receptionist" targetEndRoleName="Open Report" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="170b7ab2-69f6-448d-9173-fc51d2a2253b" LastKnownName="Open Report" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6f387a3a-61a8-4e40-9d4f-6c7749968ee5" name="Receptionist" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ad2be954-1bb4-43bf-b6cd-74c5c3febbee" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c0ca4dde-365e-419e-a33c-ed9851966e50" name="Open Report" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="913e03f0-859a-43e4-af96-dc11ecd02021" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d3d5b515-829a-4d7e-a369-3626a0b847b9" />
+          </association>
+          <association Id="eca74446-f1be-4e84-90d0-437fea99dc9b" isDerived="false" sourceEndRoleName="Receptionist" targetEndRoleName="Save Report" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="20b25cb9-3495-4e37-9ca9-6d8d23ed9804" LastKnownName="Save Report" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ab70ccd1-c38b-48f6-893f-85998080138b" name="Receptionist" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ece6be95-5591-41ec-9186-c28cbeb22fb6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="33d70208-9d07-455c-bcc5-dd35dc0c845c" name="Save Report" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d7d1be48-f22c-4cc9-b489-075c4de3d7e2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0e927241-9fc8-4112-8166-e1112688e68f" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9af160e6-30aa-494d-8b02-2216c3a7083b" name="Login" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3d6b06e7-0f34-4509-899e-d23c00339dd9" />
+        <subjects>
+          <subsystemMoniker Id="935d033e-2aa1-4f89-9da8-b183435f9ed3" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="935d033e-2aa1-4f89-9da8-b183435f9ed3" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="fd8ee6d5-43d0-466e-a351-79a1c7aefbd9" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="2dc0f680-2849-4958-8b11-bf27e4902f1e" name="Add Patient Details" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ee7d4420-cef5-439b-b1fe-b3faf7fec6c6" />
+        <subjects>
+          <subsystemMoniker Id="935d033e-2aa1-4f89-9da8-b183435f9ed3" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="4034e2e8-df4a-4cec-b700-3d6e9e08dd54" name="Search for Patient Details" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d8d29bb3-e6e5-42cc-81f9-8313ed249bb0" />
+        <subjects>
+          <subsystemMoniker Id="935d033e-2aa1-4f89-9da8-b183435f9ed3" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="4ca17941-997f-44fd-9148-b9b60519aca8" name="Generate Report" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7339eaf3-d082-4d34-ab0b-3a3f6ee6c341" />
+        <subjects>
+          <subsystemMoniker Id="935d033e-2aa1-4f89-9da8-b183435f9ed3" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="170b7ab2-69f6-448d-9173-fc51d2a2253b" name="Open Report" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="36716b7c-1328-47f8-8e46-263655ea9a02" />
+        <subjects>
+          <subsystemMoniker Id="935d033e-2aa1-4f89-9da8-b183435f9ed3" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="20b25cb9-3495-4e37-9ca9-6d8d23ed9804" name="Save Report" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="98bdcebd-009c-46d0-91e2-ecc1760625cc" />
+        <subjects>
+          <subsystemMoniker Id="935d033e-2aa1-4f89-9da8-b183435f9ed3" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="f31a7b50-4ca5-4ff5-9f9f-b528b654cb91" name="ModelingProject1">
+    <elementDefinition Id="6cc5f153-2578-42e3-ba76-b2901f4bda22" />
+  </package>
+</useCaseModelRoot>
